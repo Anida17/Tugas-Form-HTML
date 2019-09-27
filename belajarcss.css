@@ -1,0 +1,28 @@
+h1{
+	color: yellow;
+	background-color: red;
+	text-align: center;
+	margin-top: 0px;
+}
+body{
+	background-image: url(https://gadgetren.com/wp-content/uploads/2015/12/4g-plus-indosat-ooredoo.jpg);
+}
+.container{
+	margin-right: 0px;
+	margin-left: 0px;
+	background-color: orange;
+}
+
+form label input{
+	display: block;
+	margin-bottom: 5px;
+	width: 5%;
+	border : none;
+	border-radius: 5px;
+	height: 5px;
+	padding: 5px;
+
+}
+form b input{
+	background-color: red;
+}
