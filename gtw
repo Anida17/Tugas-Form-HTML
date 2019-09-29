@@ -1,0 +1,15 @@
+h1{
+    color:rgb(85, 65, 39)
+}
+
+h2{
+    color:rgb(105, 77, 41)
+}
+
+hr{
+    color: rgb(133, 83, 43)
+}
+
+body{
+    background: url('mogok-di-perlintasan-truk-muatan-bekatul-dituntut-pt-kai-daop-5.png')
+}
