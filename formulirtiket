@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+    <title> TUGAS PRAKTIKUM PERANCANGAN WEBSITE</title>
+    <link rel="stylesheet" href="gtw.css">
+    <link rel="shortcut icon" href="Logo_PT_KAI_(Persero)_(New_version_2016).svg.png">
+</head>
+<body>
+    <header>
+        <h1 align="center">FORMULIR PEMESANAN TIKET KERETA API</h1>
+        <hr>
+        <br>
+    </header>
+    <form>
+        <table align="center" border="0" cellpadding="0" cellspacing="1" bgcolor="fffdc6" style="padding: 20px">
+            <tr>
+                <td bgcolor="fffdc6"><table width="1000" border="0" align="center" cellpadding="14" cellspacing="5">
+            <tr>
+            <header>
+                <h2 align="left">DATA PEMESAN</h2>
+                <hr>
+            </header>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" name="nama" size="40" placeholder="Isi dengan nama lengkap"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><input type="text" name="Alamat" size="40" cols="30" rows="5" placeholder="Isi sesuai alamat tempat tinggal"></td>
+            </tr>
+            <tr>
+                <td>No Telepon</td>
+                <td>:</td>
+                <td><input type="text" name="No Telepon" size="40" minlength="11" maxlength="12" placeholder="Masukkan nomor telepon"></td>
+            </tr>
+            </table>
+    </form>
+    <header>
+        <h2 align="left">DATA PENUMPANG</h2>
+        <hr>
+    </header>
+    <form>
+            <table align="center" border="0" cellpadding="0" cellspacing="1" bgcolor="fffdc6" style="padding: 20px">
+            <tr>
+                <td bgcolor="fffdc6"><table width="1000" border="0" align="center" cellpadding="10" cellspacing="5">
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" name="nama" size="40" placeholder="Isi dengan nama lengkap"></td>
+            </tr>
+            <tr>
+                <td>No KTP</td>
+                <td>:</td>
+                <td><input type="text" name="No KTP" size="40" maxlength="12" placeholder="Masukkan No KTP"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><input type="text" name="Alamat" size="40" cols="30" rows="5" placeholder="Isi sesuai alamat tempat tinggal"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="text" name="Email" size="40" placeholder="Masukkan email"></td>
+            </tr>
+            <tr>
+                <td>No Telepon</td>
+                <td>:</td>
+                <td><input type="text" name="No Telepon" size="40" minlength="11" maxlength="12" placeholder="Masukkan nomor telepon"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jenis_kelamin" value="laki-laki"> Laki-Laki<br>
+                    <input type="radio" name="jenis_kelamin" value="perempuan"> Perempuan<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Tipe Penumpang</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="dewasa" value="dewasa"> Dewasa<br>
+                    <input type="radio" name="bayi" value="bayi"> Bayi<br>
+                </td>
+            </tr>
+            </table>
+    </form>
+    <header>
+        <h2 align="left">DATA PERJALANAN</h2>
+        <hr>
+    </header>
+    <form>
+            <table align="center" border="0" cellpadding="0" cellspacing="1" bgcolor="fffdc6" style="padding: 20px">
+            <tr>
+                <td bgcolor="fffdc6"><table width="1000" border="0" align="center" cellpadding="10" cellspacing="5">
+            <tr>
+                <td>Nama Kereta Api</td>
+                <td>:</td>
+                <td><input type="text" name="nama kereta" size="40" placeholder="Isi nama kereta api"></td>
+            </tr>
+            <tr>
+                <td>Kelas</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="eksekutif" value="eksekutif"> Eksekutif<br>
+                    <input type="radio" name="ekonomi premium" value="ekonomi premium"> Ekonomi Premium<br>
+                    <input type="radio" name="ekonomi ac" value="ekonomi ac"> Ekonomi AC<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Asal</td>
+                <td>:</td>
+                <td><input type="text" name="Asal" size="40" placeholder="Masukkan kota asal"></td>
+            </tr>
+            <tr>
+                <td>Tujuan</td>
+                <td>:</td>
+                <td><input type="text" name="Tujuan" size="40" placeholder="Masukkan kota tujuan"></td>
+            </tr>
+            <tr>
+                <td>Jadwal Berangkat</td>
+                <td>:</td>
+                <td><input type="date" name="Email" size="40"></td>
+                <br>
+                    <td>Jam</td>
+                    <td>:</td>
+                    <td><input type="time" name="jam" size="40"></td>
+            </tr>
+            </table>
+            <br>
+            <br>
+            <p align="right">
+                <input type="submit" name="submit" value="SIMPAN">
+            </p>
+            <hr>
+    </form>  
+    <footer>
+        copyright : Asniar Tirtarani // 182410101045
+    </footer>
+</body>
+</html>
+
+
